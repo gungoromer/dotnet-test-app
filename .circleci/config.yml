@@ -21,7 +21,7 @@ jobs:
           key: dotnet-packages-v1-{{ checksum "SimpleCalc/SimpleCalc.csproj" }}
       - add_ssh_keys:
           fingerprints:
-            - "SHA256:+Aq/Q8nIrcrJsH2gY/acOk7ragZOJlkZxC5pBT3YON0"
+            - "SHA256:4vpJaRPRgemuZNVco3wvf5mVluCd+R0HEFg6fuV7udA"
       - run:
           name: "Run Application Tests"
           command: dotnet.exe test -v n --results-directory:test_coverage --collect:"Code Coverage"
