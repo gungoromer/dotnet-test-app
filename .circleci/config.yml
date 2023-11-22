@@ -35,6 +35,9 @@ jobs:
     executor:
       name: windows/default
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "e8:05:79:32:a1:30:3a:23:26:56:9a:21:b5:35:93:a1"
       - checkout
       - run:
           name: "Build Application according to some given configuration"
