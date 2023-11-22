@@ -1,6 +1,6 @@
 # A simple ASP.NET Core Calculator  Application with Unit Tests
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/7yF1c3msr3SwZSq3SqUN7u/9kgfqkdbvULryxdQUvZ6zS/tree/main.svg?style=svg&circle-token=a53b8cf2265f9092c82305bc0f8d2486fb59f6bf)](https://dl.circleci.com/status-badge/redirect/circleci/7yF1c3msr3SwZSq3SqUN7u/9kgfqkdbvULryxdQUvZ6zS/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/7yF1c3msr3SwZSq3SqUN7u/9kgfqkdbvULryxdQUvZ6zS/tree/master.svg?style=svg&circle-token=82dbcf682ac88da34ac08e00545ce41c583a3e6a)](https://dl.circleci.com/status-badge/redirect/circleci/7yF1c3msr3SwZSq3SqUN7u/9kgfqkdbvULryxdQUvZ6zS/tree/master)
 
 Simple ASP.NET Core calculator  application  with unit tests.
 
