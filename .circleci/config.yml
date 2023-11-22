@@ -18,7 +18,10 @@ jobs:
       - save_cache:
           paths:
             - C:\Users\circleci\.nuget\packages
-          key: dotnet-packages-v1-{{ checksum "SimpleCalc/SimpleCalc.csproj" }}      
+          key: dotnet-packages-v1-{{ checksum "SimpleCalc/SimpleCalc.csproj" }}
+      - add_ssh_keys:
+          fingerprints:
+            - "SHA256:tR8dLiqNUyVz46CS1W9TS9z6SukWE0UCdwy96Mu+65M"
       - run:
           name: "Run Application Tests"
           command: dotnet.exe test -v n --results-directory:test_coverage --collect:"Code Coverage"
