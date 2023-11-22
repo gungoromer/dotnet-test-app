@@ -8,6 +8,6 @@ Simple ASP.NET Core calculator  application  with unit tests.
 [![<ORG_NAME>](https://circleci.com/<VCS>/<ORG_NAME>/<PROJECT_NAME>.svg?style=svg)](<LINK>)
 
 # Example:
-[![CircleCI](https://circleci.com/gh/cci-v58w9/cci-v58w9 / dotnet-test-app.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
+[![CircleCI](https://circleci.com/gh/cci-v58w9/dotnet-test-app.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
 
 
