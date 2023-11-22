@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace SimpleCalc.Services
 {
@@ -16,7 +13,6 @@ namespace SimpleCalc.Services
         {
             return x - y;
         }
-
 
         //public int AddNumbersIfSuccessful(int x, int y, IExternalService es)
         //{
@@ -46,6 +42,7 @@ namespace SimpleCalc.Services
             else
                 return false;
         }
+
         public int UnsafeDivide(int x, int y)
         {
             return (x / y);
@@ -58,7 +55,7 @@ namespace SimpleCalc.Services
             {
                 result = Convert.ToDouble(x) / y;
             }
-            catch (DivideByZeroException )
+            catch (DivideByZeroException)
             {
                 return -1;
             }

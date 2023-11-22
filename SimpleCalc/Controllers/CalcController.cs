@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Mvc;
 using SimpleCalc.Models;
 using SimpleCalc.Services;
-using Microsoft.AspNetCore.Mvc;
 
 namespace SimpleCalc.Controllers
 {
@@ -24,7 +20,6 @@ namespace SimpleCalc.Controllers
             model.Result = result;
             return View(model);
         }
-
 
         [HttpPost]
         public ActionResult Add(CalcViewModel model)

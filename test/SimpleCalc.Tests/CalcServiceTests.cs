@@ -1,7 +1,5 @@
 ﻿using SimpleCalc.Services;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using Xunit;
 
 namespace SimpleCalc.Tests
@@ -17,10 +15,10 @@ namespace SimpleCalc.Tests
             // 1. Arrange
             var cs = new CalcService();
 
-            // 2. Act 
+            // 2. Act
             var result = cs.AddNumbers(x, y);
 
-            // 3. Assert 
+            // 3. Assert
             Assert.Equal(expectedResult, result);
         }
 
@@ -92,7 +90,6 @@ namespace SimpleCalc.Tests
 
             Exception ex = Assert
                 .Throws<DivideByZeroException>(() => cs.UnsafeDivide(x, y));
-
         }
     }
 }
